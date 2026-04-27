@@ -72,4 +72,31 @@ body{
 .contact{
     margin-top: 30px;
     border: 2px solid #2a2a2a;
+    padding-top: 20px;
+}
+.label{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #dfd8d8;
+}
+.value{
+    color: #968f96;
+    text-decoration: none;
+}
+.email .phone{
+    margin-bottom: 10px;
+}
+/*social media*/
+.social{
+    margin-top: 30px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+    text-align: center;
+}
+.socialImage{
+    height: 24px;
+    width: 24px;
+    margin-left: 5px;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.3s ease;
 }
