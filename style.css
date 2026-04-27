@@ -28,4 +28,21 @@ body{
 .main-content{
      height: 90vh;
      background-color: #2a2a2a;
+     border: 1px solid #3a3a3a;
+     border-radius: 16px;
+}
+.profile img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+      border: 1px solid #483e0b;
+}
+.profile h2{
+    font-size: 1.5rem;
+    font-weight:700;
+    margin-top: 20px;
+}
+.profile span{
+    background-color: #1e1e1e;
+    padding: ;
 }
