@@ -107,16 +107,32 @@ body{
 /* main content */
 /* navigation  */
  #navigation{
-    padding: 30px 20px;
+    border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding-bottom: 20px ;
  }
  nav{
     display: flex;
     justify-content: flex-end;
-    /* align-items: center; */
     gap:20px;
  }
  nav a{
     text-decoration: none;
+    color: #7e7e7c;
+    font-weight: 500;
+    transition: color 0.3s;
+    /* border-bottom: 2px solid #3a3a3a;
+    margin-bottom: 20px;
+    padding-bottom:20px ; */
+ }
+
+ .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+ }
+  .active, nav a:hover{
+    color: #FFBF00;
  }
 /* about me */
 /* skills */
