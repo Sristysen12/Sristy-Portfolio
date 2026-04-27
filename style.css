@@ -93,10 +93,32 @@ body{
     padding-top: 20px;
     text-align: center;
 }
-.socialImage{
+.social img{
     height: 24px;
     width: 24px;
     margin-left: 5px;
     filter: grayscale(1) invert(0.7);
     transition: filter 0.3s ease;
 }
+.social img:hover{
+    filter: grayscale(0) invert(0);
+}
+
+/* main content */
+/* navigation  */
+ #navigation{
+    padding: 30px 20px;
+ }
+ nav{
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+    gap:20px;
+ }
+ nav a{
+    text-decoration: none;
+ }
+/* about me */
+/* skills */
+/* education */
+/* projects */
