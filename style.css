@@ -131,10 +131,27 @@ body{
     font-weight: 500;
     transition: color 0.3s;
  }
-  .active, nav a:hover{
+.active, nav a:hover{
     color: #FFBF00;
  }
 /* about me */
+.heading{
+    color: #dfd8d8;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.line{
+    width: 60px;
+    height: 5px;
+    background-color: #FFBF00;
+    margin-bottom: 15px;
+}
+.content{
+    text-align: justify;
+}
+#about{
+    margin-bottom: 40px;
+}
 /* skills */
 /* education */
 /* projects */
