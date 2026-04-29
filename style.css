@@ -26,8 +26,10 @@ body{
      border: 1px solid #3a3a3a;
      border-radius: 16px;
      padding: 40px;
+     position: sticky;
+     top: 40px;
 }
-.main-content{
+#main-content{
      background-color: #2a2a2a;
      border: 1px solid #3a3a3a;
      border-radius: 16px;
@@ -104,6 +106,20 @@ body{
 }
 .social img:hover{
     filter: grayscale(0) invert(0);
+}
+.resume-btn{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resume-btn a{
+    text-decoration: none;
+    background: #FFBF00;
+    color: #1e1e1e;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: inline-block;
 }
 
 /* main content */
@@ -247,6 +263,7 @@ body{
 /* projects */
 
 .project-container{
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:25px ;
@@ -262,6 +279,10 @@ body{
     border: 1px solid #3a3a3a;
     overflow: hidden;
     transition: transform 0.5s ease, boxshadow 0.5s ease;
+}
+.project:hover{
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3) ;
 }
 .card{
     padding: 20px;
@@ -284,7 +305,122 @@ body{
     margin-right: 5px;
 }
 
+@media screen and (max-width:992px) {
+    .main-container{
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 20px;
+    }
+    .sidebar{
+        position: static;
+        height: auto;
+          width: 100%;
+        padding: 25px;
+    }
+}
+ .main-content {
+        padding: 25px;
+    }
 
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .main-container {
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .sidebar,
+    .main-content {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .profile img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .profile h2 {
+        font-size: 1.2rem;
+    }
+
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .item {
+        padding: 15px;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .project img {
+        height: 160px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
+
+
+/* Small phones */
+@media screen and (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .profile p,
+    .profile span {
+        font-size: 0.7rem;
+        padding: 4px 10px;
+    }
+
+    .contact {
+        font-size: 13px;
+    }
+
+    .social img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .project img {
+        height: 140px;
+    }
+}
 
 
 
