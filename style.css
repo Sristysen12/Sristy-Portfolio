@@ -330,9 +330,6 @@ body{
     .project-container {
         grid-template-columns: 1fr;
     }
-}
-
-
 /* Mobile */
 @media screen and (max-width: 768px) {
     body {
@@ -421,9 +418,15 @@ body{
         height: 140px;
     }
 }
-
-
-
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #7e7e7c;
+    font-size: 14px;
+    width: 100%;
+    clear: both;
+}
 
 
 
