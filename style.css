@@ -61,7 +61,7 @@ body{
 .profile span{
     background-color: #1e1e1e;
     padding: 5px 15px;
-    color: #FFBF00;
+    color: #272001;
     border: 1px solid #3a3a3a;
     font-size: 0.8rem;
     border-radius: 8px;
@@ -78,13 +78,14 @@ body{
     font-weight: 500;
     font-size: 0.8rem;
     color: #dfd8d8;
+   
 }
 .value{
     color: #968f96;
     text-decoration: none;
 }
-.email .phone{
-    margin-bottom: 10px;
+.email , .phone{
+    margin-bottom: 15px;
 }
 /*social media*/
 .social{
@@ -187,13 +188,50 @@ body{
 #education{
     margin-top: 30px;
 }
+.edtech{
+    position: relative;
+}
+.year{
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    margin-bottom: 5px;
+}
+.degree{
+    color: #e0e0e0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.college{
+    font-style: italic;
+    color: #a0a0a0;
+    margin-bottom: 10px;
+}
+.work{
+    color: #a0a0a0;
+}
+.edfirst, .edsecond{
+    margin-bottom: 30px;
+    position: relative;
+    padding: 25px;
+}
+.goal{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 3px solid #FFBF00;
+    position: absolute;
+    top:5px;
+    left: 0px;
+}
 
-
-
-
-
-
-
+.liner{
+    position: absolute;
+    width: 1px;
+    top: 0px;
+    bottom: 0px;
+    border: 2px solid #3a3a3a;
+}
 
 
 
